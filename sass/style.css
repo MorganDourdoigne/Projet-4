@@ -1,23 +1,21 @@
-/*# sourceMappingURL=style.css.map */
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-h1{
-   font-family: 'Roboto', sans-serif;
-   font-weight: 700;
-   font-size: 24px;
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 
-h2{
-   font-family: 'Roboto', sans-serif;
-   font-weight: 700;
-   font-size: 18px;
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-p{
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
-   font-size: 17px;
-}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}/*# sourceMappingURL=style.css.map */
