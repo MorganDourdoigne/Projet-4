@@ -1,11 +1,13 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
+  padding-left: 15px;
 }
 
 h2 {
@@ -24,25 +26,30 @@ ul {
   list-style-type: none;
 }
 
-body {
-  margin: 0;
+.section_cards,
+.section_reservation {
+  background-color: #f3f3f3;
 }
 
-.section_cards {
-  background-color: #d2d2d2;
+header {
+  text-align: center;
 }
 
-header footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.logo_header {
+  width: 60%;
+  text-align: center;
+  margin: 12px 0 12px 0;
+}
+
+.form {
+  background-color: #EAEAEA;
 }
 
 .card_restaurants {
   display: flex;
   flex-direction: column;
   padding: 0 10px 20px 10px;
+  border-radius: 15px;
 }
 
 .card_image {
@@ -50,15 +57,36 @@ header footer {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 15% 15% 0 0;
 }
 
 .section_cards {
   display: flex;
   flex-direction: column;
+  padding-bottom: 15px;
+}
+
+.section_reservation {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .text_card {
   display: flex;
   flex-direction: column;
   padding-left: 15px;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #353535;
+}
+
+.logo_footer {
+  width: 60%;
+  height: 27px;
 }/*# sourceMappingURL=style.css.map */
