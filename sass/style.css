@@ -31,6 +31,12 @@ ul {
   background-color: #f3f3f3;
 }
 
+footer {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 header {
   text-align: center;
 }
@@ -47,7 +53,11 @@ header {
   padding-top: 25px;
 }
 
-#city {
+#icone_loc {
+  color: black;
+}
+
+#ville {
   color: black;
   border: none;
   background-color: #EAEAEA;
@@ -61,6 +71,30 @@ header {
   color: white;
   padding: 16px;
   margin: 8px;
+  border: none;
+  width: 60%;
+}
+
+.button_choice {
+  gap: 21px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_fonction {
+  background: #F7F7F7;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  height: 72px;
+  padding: 0 20px;
+  border: none;
+  width: 80%;
+}
+
+.fa-solid {
+  color: #7e7e7e;
 }
 
 .card_restaurants {
@@ -99,10 +133,19 @@ header {
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   background-color: #353535;
+}
+
+.footer_display {
+  display: flex;
+  flex-direction: column;
+  padding: 22px 0px 22px 21px;
+  gap: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
 }
 
 .logo_footer {

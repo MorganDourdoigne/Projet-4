@@ -17,7 +17,11 @@ header{
     padding-top: 25px;
 }
 
-#city{
+#icone_loc{
+    color: black;
+}
+
+#ville{
     color: black;
     border: none;
     background-color: #EAEAEA;
@@ -33,8 +37,26 @@ header{
     color: white;
     padding: 16px;
     margin: 8px;
+    border: none;
+    width: 60%;
 }
 
+// Partie Fonctionnement
+.button_choice{
+    gap: 21px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.button_fonction{
+    @include button;
+}
+
+.fa-solid{
+    color: #7e7e7e;
+}
 
 
 // partie cards
@@ -75,12 +97,21 @@ header{
 
 // partie du footer
 footer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;  
-    background-color: $color-footer;
+    background-color: $color-footer; 
 }
 
+.footer_display{
+    display: flex;
+    flex-direction: column;          
+    padding: 22px 0px 22px 21px; 
+    gap: 10px;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
 .logo_footer{
     width: 60%;
     height: 27px;
