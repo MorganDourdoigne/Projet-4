@@ -98,7 +98,7 @@ header {
   margin-right: 15px;
 }
 
-span {
+.logo_number {
   border-radius: 50%;
   background-color: #9356DC;
   padding: 5px 7px 5px 7px;
@@ -142,6 +142,12 @@ span {
   border-radius: 0 0 15px 15px;
 }
 
+.card_h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -10px;
+}
+
 #logo_heart {
   color: black;
 }
@@ -176,4 +182,10 @@ footer a {
 #logo_handshake {
   color: #ffffff;
   margin-right: 11px;
+}
+
+.card_h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -10px;
 }/*# sourceMappingURL=style.css.map */
