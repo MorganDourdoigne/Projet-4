@@ -31,7 +31,7 @@ ul {
   background-color: #f3f3f3;
 }
 
-footer {
+footer, .button_fonction, #ville {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -50,7 +50,7 @@ header {
 .form {
   background-color: #EAEAEA;
   height: 50px;
-  padding-top: 25px;
+  padding: 25px 0 0 62px;
 }
 
 #icone_loc {
@@ -95,6 +95,7 @@ header {
 
 .fa-solid {
   color: #7e7e7e;
+  margin-right: 15px;
 }
 
 .card_restaurants {
@@ -110,6 +111,7 @@ header {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15% 15% 0 0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .section_cards {
@@ -132,6 +134,10 @@ header {
   border-radius: 0 0 15px 15px;
 }
 
+#logo_heart {
+  color: black;
+}
+
 footer {
   background-color: #353535;
 }
@@ -143,14 +149,15 @@ footer {
   gap: 10px;
 }
 
-a:link {
+footer a {
   text-decoration: none;
   color: white;
 }
 
 .logo_footer {
-  width: 60%;
+  width: 100px;
   height: 27px;
+  margin: 10px 0 10px 0;
 }
 
 #logo_fork {
