@@ -41,7 +41,7 @@ header{
     width: 60%;
 }
 
-// Partie Fonctionnement
+// section Fonctionnement
 .button_choice{
     gap: 21px;
     padding-bottom: 40px;
@@ -59,8 +59,16 @@ header{
     margin-right: 15px;
 }
 
+span{
+    border-radius: 50%;
+    background-color: $color-primary;
+    padding: 5px 7px 5px 7px;
+    position: relative;
+    left: -48px;
+}
 
-// partie cards
+
+// section cards
 .card_restaurants{
     display: flex;
     flex-direction: column;
@@ -101,7 +109,7 @@ header{
 }
 
 
-// partie du footer
+// section footer
 footer{
     background-color: $color-footer; 
 }
