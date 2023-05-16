@@ -151,4 +151,14 @@ a:link {
 .logo_footer {
   width: 60%;
   height: 27px;
+}
+
+#logo_fork {
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+#logo_handshake {
+  color: #ffffff;
+  margin-right: 11px;
 }/*# sourceMappingURL=style.css.map */
