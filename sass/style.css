@@ -31,7 +31,7 @@ ul {
   background-color: #f3f3f3;
 }
 
-footer, .button_fonction, #ville {
+footer, .button_fonction, #ville, .button_explorer {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -73,6 +73,12 @@ header {
   margin: 8px;
   border: none;
   width: 60%;
+  transition: transform 500ms ease-in-out;
+}
+
+.button_explorer:hover {
+  transform: scale(1.01);
+  box-shadow: -1px 4px 17px rgba(0, 0, 0, 0.5);
 }
 
 .button_choice {
@@ -151,6 +157,10 @@ header {
 
 #logo_heart {
   color: black;
+}
+
+#logo_heart:hover {
+  color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
 footer {

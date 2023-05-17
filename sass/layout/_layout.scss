@@ -29,17 +29,16 @@ header{
 
 
 // section réservation
-.button_explorer{
-    border-radius: 25px;
-    background: $color-violet;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    height: 50px;
-    color: white;
-    padding: 16px;
-    margin: 8px;
-    border: none;
-    width: 60%;
+.button_explorer {
+    @include button_explorer;
+    transition: transform 500ms ease-in-out;  
 }
+
+.button_explorer:hover {
+    transform: scale(1.01);
+    box-shadow:  -1px 4px 17px rgba(0, 0, 0, 0.5);
+}
+
 
 // section Fonctionnement
 .button_choice{
@@ -112,8 +111,14 @@ header{
 }
 
 #logo_heart{
-    color: black;
+    color: black;  
 }
+
+#logo_heart:hover {
+    color: $color-violet;
+}
+
+
 
 
 // section footer
@@ -154,4 +159,3 @@ footer a {
     justify-content: flex-start;
     margin-bottom: -10px;
 }
-
