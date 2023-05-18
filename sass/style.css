@@ -107,9 +107,9 @@ header {
 .logo_number {
   border-radius: 50%;
   background-color: #9356DC;
-  padding: 5px 7px 5px 7px;
+  padding: 5px 9px 5px 9px;
   position: absolute;
-  left: 9%;
+  left: 7%;
   color: #ffffff;
 }
 
@@ -155,11 +155,14 @@ header {
   margin-bottom: -10px;
 }
 
-#logo_heart {
+.logo_heart {
   color: black;
+  height: 21px;
+  position: absolute;
+  left: 87%;
 }
 
-#logo_heart:hover {
+.logo_heart:hover {
   color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
 }
 
