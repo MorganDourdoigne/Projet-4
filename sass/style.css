@@ -65,15 +65,18 @@ header {
 
 .button_explorer {
   border-radius: 25px;
-  background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   height: 50px;
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   color: white;
   padding: 8px;
   margin: 8px;
   border: none;
   width: 60%;
+  cursor: pointer;
+  padding: 12px;
   transition: transform 500ms ease-in-out;
+  text-decoration: none;
 }
 
 .button_explorer:hover {
@@ -165,7 +168,7 @@ header {
 }
 
 .logo_heart:hover {
-  color: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  color: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
 }
 
 footer {

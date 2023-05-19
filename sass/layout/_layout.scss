@@ -30,8 +30,9 @@ header{
 
 // section réservation
 .button_explorer {
-    @include button_explorer;
+    @include button_explorer;  
     transition: transform 500ms ease-in-out;  
+    text-decoration: none;
 }
 
 .button_explorer:hover {
