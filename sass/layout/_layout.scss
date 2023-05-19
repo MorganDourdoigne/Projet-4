@@ -76,6 +76,7 @@ header{
     flex-direction: column;
     padding: 0 10px 20px 10px;
     border-radius: 15px;
+    position: relative;
 }
     
 .card_image {
@@ -117,10 +118,21 @@ header{
     height: 21px;
     position: absolute;
     left: 87%;
+    font-size: 2em;
 }
 
 .logo_heart:hover {
     color: $color-violet;
+}
+
+.logo_nouveau{
+    background-color: #99E2D0;
+    color: #008766;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    position: absolute;
+    right: 23px;
+    bottom: 202px;
 }
 
 
