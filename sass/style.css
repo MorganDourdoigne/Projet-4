@@ -16,7 +16,7 @@ h2 {
   font-size: 18px;
 }
 
-p {
+p, .h2_menu {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 17px;
@@ -31,7 +31,7 @@ ul {
   background-color: #f3f3f3;
 }
 
-footer, .button_fonction, #ville, .button_explorer {
+footer, .button_fonction, #ville, .button_explorer, .title_menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -230,4 +230,38 @@ footer a {
 .img_page {
   width: 100%;
   height: 275px;
+}
+
+.background_color {
+  background-color: #f7f7f7;
+  margin: 0 5px 0 5px;
+}
+
+.title_restaurant {
+  font-family: "Shrikhand", sans-serif;
+  font-style: italic;
+  font-size: 28px;
+}
+
+.h2_menu {
+  font-size: 16px;
+}
+
+.entrees_menu {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.title_menu {
+  font-size: 18px;
+  padding: 6px 0 0 10px;
+  margin: 0;
+}
+
+.piment {
+  padding: 6px 0 0 10px;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

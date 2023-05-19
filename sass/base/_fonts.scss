@@ -16,7 +16,7 @@ h2{
    font-size: 18px;
 }
 
-p{
+p, .h2_menu{
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
    font-size: 17px;
@@ -31,7 +31,7 @@ ul{
    background-color: $color-gray;
 }
 
-footer, .button_fonction, #ville, .button_explorer{
+footer, .button_fonction, #ville, .button_explorer, .title_menu{
    font-family: 'Roboto', sans-serif;
    font-weight: 500;
    font-size: 16px;
