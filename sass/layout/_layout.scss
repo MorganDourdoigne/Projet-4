@@ -121,9 +121,15 @@ header{
     font-size: 2em;
 }
 
+
+
 .logo_heart:hover {
-    color: $color-violet;
+    background-color: $color-violet;
+    cursor: pointer;
+    
+
 }
+
 
 .logo_nouveau{
     background-color: #99E2D0;
