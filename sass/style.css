@@ -79,6 +79,7 @@ header {
 .button_explorer:hover {
   transform: scale(1.01);
   box-shadow: -1px 4px 17px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
 }
 
 .button_choice {
@@ -97,6 +98,7 @@ header {
   padding: 0 20px;
   border: none;
   width: 80%;
+  position: relative;
 }
 
 .fa-solid {
@@ -109,7 +111,7 @@ header {
   background-color: #9356DC;
   padding: 5px 9px 5px 9px;
   position: absolute;
-  left: 7%;
+  left: -15px;
   color: #ffffff;
 }
 
@@ -125,7 +127,7 @@ header {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 15% 15% 0 0;
+  border-radius: 15px 15px 0 0;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
