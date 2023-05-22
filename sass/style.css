@@ -181,6 +181,7 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
+  cursor: pointer;
 }
 
 .hoverheart:hover .hoverheart__blackheart {
@@ -201,6 +202,11 @@ header {
   position: absolute;
   right: 23px;
   bottom: 202px;
+}
+
+.restaurant_link {
+  text-decoration: none;
+  color: black;
 }
 
 footer {
