@@ -161,17 +161,36 @@ header {
   margin-bottom: -10px;
 }
 
-.logo_heart {
+.hoverheart__blackheart {
   color: black;
   height: 21px;
   position: absolute;
   left: 87%;
   font-size: 2em;
+  opacity: 1;
 }
 
-.logo_heart:hover {
-  background-color: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
-  cursor: pointer;
+.hoverheart__pinkheart {
+  height: 21px;
+  position: absolute;
+  left: 87%;
+  font-size: 2em;
+  padding-bottom: 10px;
+  padding-right: 2px;
+  background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+}
+
+.hoverheart:hover .hoverheart__blackheart {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.hoverheart:hover .hoverheart__pinkheart {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
 }
 
 .logo_nouveau {
@@ -261,7 +280,7 @@ footer a {
   margin: 0;
 }
 
-.piment {
+.sub_menu {
   padding: 6px 0 0 10px;
   margin: 0;
 }/*# sourceMappingURL=style.css.map */
