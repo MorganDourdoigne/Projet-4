@@ -372,22 +372,36 @@ footer a {
 }
 
 .entrees_menu {
-  background-color: red;
+  background-color: white;
   display: flex;
   flex-direction: column;
   border-radius: 15px;
   width: 100%;
+  margin-bottom: 12px;
+  box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
 }
 
 .title_menu {
   font-size: 18px;
-  padding: 6px 0 0 10px;
+  padding: 10px 0 0 10px;
   margin: 0;
 }
 
 .sub_menu {
-  padding: 6px 0 0 10px;
+  padding: 6px 0 13px 10px;
   margin: 0;
+}
+
+.price_menu {
+  position: absolute;
+  margin-top: 33px;
+  right: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.container_plat {
+  display: flex;
 }
 
 @media (min-width: 1024px) {

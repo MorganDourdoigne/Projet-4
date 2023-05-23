@@ -18,6 +18,7 @@
 .logo_header_page{    
     width: 200px;         
 }
+// 
 
 
 // header menu
@@ -45,7 +46,10 @@
     font-size: 28px;   
     margin-left: -20px; 
 }
+// 
 
+
+// hover heart
 .hover_menu_heart{
     opacity: 1;
     transition: 0.3s ease-in-out;
@@ -86,34 +90,44 @@
     opacity: 1;
     transition: 0.3s ease-in-out;
   }
+// 
 
-
-
-
-
-
-
+// menu
 .h2_menu{
     font-size: 16px;
 }
 
 .entrees_menu{
-    background-color: red;
+    background-color: white;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
     width: 100%;   
+    margin-bottom: 12px;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
 }
 
 .title_menu{
     font-size: 18px;
-    padding: 6px 0 0 10px;
+    padding: 10px 0 0 10px;
     margin: 0;
 }
 
 .sub_menu{
-    padding: 6px 0 0 10px;
+    padding: 6px 0 13px 10px;
     margin: 0;
+}
+
+.price_menu{
+    position: absolute;
+    margin-top: 33px;
+    right: 30px;    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.container_plat{
+    display: flex;
 }
 
 
