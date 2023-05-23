@@ -37,12 +37,36 @@ footer, .button_fonction, #ville, .button_explorer, .title_menu {
   font-size: 16px;
 }
 
+.loader {
+  border: 15px solid #f3f3f3;
+  border-top: 15px solid #9356DC;
+  border-bottom: 15px solid #FF79DA;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 header {
   text-align: center;
 }
 
 .logo_header {
-  width: 60%;
+  width: 200px;
   text-align: center;
   margin: 12px 0 12px 0;
 }
@@ -165,7 +189,7 @@ header {
   color: black;
   height: 21px;
   position: absolute;
-  left: 87%;
+  left: 85%;
   font-size: 2em;
   opacity: 1;
 }
@@ -173,12 +197,13 @@ header {
 .hoverheart__pinkheart {
   height: 21px;
   position: absolute;
-  left: 87%;
+  left: 85%;
   font-size: 2em;
   padding-bottom: 10px;
   padding-right: 2px;
   background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0;
   cursor: pointer;
@@ -289,4 +314,58 @@ footer a {
 .sub_menu {
   padding: 6px 0 0 10px;
   margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .section_function {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .button_choice {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+  }
+  .button_fonction {
+    width: 35%;
+    margin-right: 5%;
+  }
+  .logo_number {
+    top: 22px;
+  }
+  .section_cards {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .section_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .margin_cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card_restaurants {
+    width: 40%;
+  }
+  .footer_display {
+    display: flex;
+    flex-direction: row;
+    padding: 22px 0px 22px 21px;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .logo_footer {
+    order: 1;
+    padding: 0 25px 0 50px;
+  }
+  .margin_mentions {
+    margin-left: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */

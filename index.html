@@ -11,7 +11,10 @@
 <script src="https://kit.fontawesome.com/2cb8ed70d7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="sass/style.css">
 </head>
+
 <body>
+   
+      <div class="loade"></div>
   
     <header>      
         <img src="assets/images/logo/ohmyfood.png" alt="Logo oh my food" class="logo_header">
@@ -31,7 +34,7 @@
         <a class="button_explorer" href="#restaurants">Explorer nos restaurants</a>      
     </section>
 
-    <section>
+    <section class="section_function">
       <div>
         <h1>Fonctionnement</h1>
         <div class="button_choice">
@@ -42,11 +45,14 @@
       </div>
     </section>
 
+
+
     <section class="section_cards">
-       <div>
+       <div class="margin_cards">
         <h1 id="restaurants">Restaurant</h1>
-        <div class="card_restaurants">
-          <a href="#" class="restaurant_link">
+        <div class="display_cards">
+        <div class="card_restaurants">          
+          <a href="la_palette_du_gout.html" class="restaurant_link">
           <img src="assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="restaurant Palette du goût" class="card_image">
           <span class="logo_nouveau">Nouveau</span>
           <div class="text_card">
@@ -79,7 +85,6 @@
             </div>
           </a>
           </div>           
-          </div>
           </div>     
         <div>
           <div class="card_restaurants">
@@ -112,18 +117,21 @@
              <p>Folie-Méricourt</p>
             </div>
           </a>
+        </div>
           </div>
             </div>
           </div>
+          </div>
+          
      </section>
 </main>
 
 <footer>
   <div class="footer_display">   
-      <img src="assets/images/logo/ohmyfood.png" alt="logo oh my food" class="logo_footer">
+       <img src="assets/images/logo/ohmyfood.png" alt="logo oh my food" class="logo_footer">
       <a href="#"><i class="fa-solid fa-utensils" id="logo_fork"></i>Proposer un restaurant</a>
       <a href="#"><i class="fa-solid fa-handshake-angle" id="logo_handshake"></i>Devenir partenaire</a>
-      <a href="#">Mentions légales</a>
+      <a href="#" class="margin_mentions">Mentions légales</a>
       <a href="#">Contact</a>
   </div> 
 </footer>
