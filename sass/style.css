@@ -361,4 +361,21 @@ footer a {
   .margin_mentions {
     margin-left: 50px;
   }
+}
+.arrow_header {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.fa-arrow-left {
+  color: black;
+  left: 20px;
+  position: absolute;
+  top: 14px;
+  font-size: 1.3em;
+}
+
+.logo_header_page {
+  width: 200px;
 }/*# sourceMappingURL=style.css.map */
