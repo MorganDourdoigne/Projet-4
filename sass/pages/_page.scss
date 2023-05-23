@@ -45,6 +45,7 @@
     font-style: italic;
     font-size: 28px;   
     margin-left: -20px; 
+    font-weight: 400;
 }
 // 
 
@@ -95,6 +96,7 @@
 // menu
 .h2_menu{
     font-size: 16px;
+    margin-top: 50px;
 }
 
 .entrees_menu{
@@ -104,16 +106,24 @@
     border-radius: 15px;
     width: 100%;   
     margin-bottom: 12px;
-    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,.1);
 }
 
 .title_menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
     font-size: 18px;
     padding: 10px 0 0 10px;
     margin: 0;
 }
 
 .sub_menu{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.0431px;
+    line-height: 18px;  
     padding: 6px 0 13px 10px;
     margin: 0;
 }
@@ -129,6 +139,15 @@
 .container_plat{
     display: flex;
 }
+
+// Button "commander"
+#commander_button{
+    margin-top: 37px;
+    margin-bottom: 31px;
+    text-align: center;    
+}
+
+
 
 
 
