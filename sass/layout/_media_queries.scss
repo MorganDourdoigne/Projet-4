@@ -22,28 +22,18 @@
 }
 
 
-// section restaurant cards
-.section_cards{
-    margin-left: 30px;
-    margin-right: 30px;
-
-}
-
-.section_cards{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;   
-}
-
-.margin_cards{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+// section cards
+.display_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    gap: 3%;
 }
 
 .card_restaurants{
-    width: 40%;
+
 }
+
+
 
 
 // footer media

@@ -150,6 +150,11 @@ header {
   position: relative;
 }
 
+.margin_cards {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .card_image {
   width: 100%;
   height: 150px;
@@ -333,22 +338,10 @@ footer a {
   .logo_number {
     top: 22px;
   }
-  .section_cards {
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-  .section_cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .margin_cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .card_restaurants {
-    width: 40%;
+  .display_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    gap: 3%;
   }
   .footer_display {
     display: flex;
