@@ -1,18 +1,97 @@
+// layout pages restaurants
+
+// header
+.arrow_header{
+    display: flex;
+    padding: 10px;
+    justify-content: center;   
+}
+
+.fa-arrow-left{
+    color: black;
+    left: 20px;
+    position: absolute;
+    top: 14px;
+    font-size: 1.3em;
+}
+
+.logo_header_page{    
+    width: 200px;         
+}
+
+
+// header menu
 .img_page{
     width: 100%;
     height: 275px;
+    object-fit: cover;    
 }
 
-.background_color{
-    background-color: #f7f7f7;
-    margin: 0 5px 0 5px;
+.container_menu{
+    background-color: #f6f6f6;
+    margin-top: -4rem;
+    border-radius: 2rem 2rem 0 0;  
+    z-index: 1; 
+    position: relative; 
+}
+
+.header_menu{  
+    padding: 10px 15px 20px 15px; 
 }
 
 .title_restaurant{
     font-family: 'Shrikhand', sans-serif;
     font-style: italic;
-    font-size: 28px;    
+    font-size: 28px;   
+    margin-left: -20px; 
 }
+
+.hover_menu_heart{
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.hoverheart__blackheartmenu{
+  color: black;
+  height: 21px;
+  position: absolute;
+  left: 86%;
+  font-size: 1.5em;
+  opacity: 1;
+  top: 38px;
+}
+
+.hoverheart__pinkheart_menu{
+    height: 21px;
+    position: absolute;
+    left: 86%;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    padding-right: 2px;
+    background: linear-gradient(0deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0;
+    cursor: pointer;
+    top: 38px;
+}
+
+.hover_menu_heart:hover .hoverheart__blackheartmenu {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .hover_menu_heart:hover .hoverheart__pinkheart_menu {
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+  }
+
+
+
+
+
+
 
 .h2_menu{
     font-size: 16px;
