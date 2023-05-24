@@ -336,7 +336,7 @@ footer a {
   color: black;
   height: 21px;
   position: absolute;
-  left: 86%;
+  left: 88%;
   font-size: 1.5em;
   opacity: 1;
   top: 38px;
@@ -345,7 +345,7 @@ footer a {
 .hoverheart__pinkheart_menu {
   height: 21px;
   position: absolute;
-  left: 86%;
+  left: 88%;
   font-size: 1.5em;
   padding-bottom: 10px;
   padding-right: 2px;
@@ -371,6 +371,17 @@ footer a {
 .h2_menu {
   font-size: 16px;
   margin-top: 50px;
+  position: relative;
+}
+
+.h2_menu:after {
+  content: "";
+  width: 3rem;
+  height: 0.25rem;
+  background-color: #99e2d0;
+  position: absolute;
+  bottom: -5px;
+  left: 1px;
 }
 
 .entrees_menu {
@@ -389,6 +400,7 @@ footer a {
   font-weight: 500;
   font-size: 18px;
   padding: 10px 0 0 10px;
+  max-width: 83%;
   margin: 0;
 }
 
@@ -398,6 +410,7 @@ footer a {
   font-weight: 300;
   font-size: 15.0431px;
   line-height: 18px;
+  max-width: 84%;
   padding: 6px 0 13px 10px;
   margin: 0;
 }
