@@ -37,14 +37,14 @@ footer, .button_fonction, #ville, .button_explorer, .title_menu {
   font-size: 16px;
 }
 
-.loader {
+.loader_logo {
   border: 15px solid #f3f3f3;
   border-top: 15px solid #9356DC;
   border-bottom: 15px solid #FF79DA;
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  animation: spin 1s linear infinite;
+  animation: spin 1.5s linear infinite;
   margin: auto;
   position: absolute;
   top: 0;
@@ -391,6 +391,7 @@ footer a {
   border-radius: 15px;
   width: 100%;
   margin-bottom: 12px;
+  cursor: pointer;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
 }
 

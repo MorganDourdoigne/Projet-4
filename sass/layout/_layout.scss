@@ -1,21 +1,23 @@
 // loader page
-.loader{
+.loader_logo{
     border: 15px solid #f3f3f3;
     border-top: 15px solid #9356DC;
     border-bottom: 15px solid #FF79DA;
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    animation: spin 1s linear infinite;
+    animation: spin 1.5s linear infinite;
     margin: auto;
     position: absolute;
-    top: 0; left: 0;right: 0;bottom: 0;   
+    top: 0; left: 0;right: 0;bottom: 0; 
+    
 }
 
 @keyframes spin {
     0% { transform: rotate(0deg);}        
     100% { transform: rotate(360deg);}
 }
+
 
 
 // partie Header
