@@ -195,7 +195,7 @@ header {
   color: black;
   height: 21px;
   position: absolute;
-  left: 85%;
+  left: 82%;
   font-size: 2em;
   opacity: 1;
 }
@@ -203,7 +203,7 @@ header {
 .hoverheart__pinkheart {
   height: 21px;
   position: absolute;
-  left: 85%;
+  left: 82%;
   font-size: 2em;
   padding-bottom: 10px;
   padding-right: 2px;
@@ -387,14 +387,15 @@ footer a {
 
 .entrees_menu {
   background-color: white;
-  display: flex;
-  flex-direction: column;
   border-radius: 15px;
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 12px;
   cursor: pointer;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
   animation: slidedown 2s forwards;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 @keyframes slidedown {
@@ -407,13 +408,31 @@ footer a {
     opacity: 100%;
   }
 }
+.all_menu {
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+  text-overflow: ellipsis;
+}
+
+.sentence {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.manger {
+  display: flex;
+  flex-direction: column;
+}
+
 .title_menu {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   padding: 10px 0 0 10px;
-  max-width: 83%;
   margin: 0;
 }
 
@@ -423,17 +442,20 @@ footer a {
   font-weight: 300;
   font-size: 15.0431px;
   line-height: 18px;
-  max-width: 84%;
   padding: 6px 0 13px 10px;
   margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .price_menu {
-  position: absolute;
-  margin-top: 33px;
-  right: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  margin-right: 9px;
 }
 
 .container_plat {
