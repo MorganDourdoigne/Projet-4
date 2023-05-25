@@ -182,6 +182,7 @@ header {
   padding-left: 15px;
   background-color: white;
   border-radius: 0 0 15px 15px;
+  margin-top: -4px;
 }
 
 .card_h2 {
@@ -393,7 +394,7 @@ footer a {
   margin-bottom: 12px;
   cursor: pointer;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
-  animation: slidedown 1s forwards;
+  animation: slidedown 2s forwards;
 }
 
 @keyframes slidedown {
@@ -473,7 +474,7 @@ footer a {
     padding: 22px 0px 22px 21px;
     gap: 10px;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: baseline;
     margin-right: 30px;
     padding-top: 40px;
     padding-bottom: 40px;

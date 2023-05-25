@@ -118,12 +118,11 @@
     margin-bottom: 12px;
     cursor: pointer;
     box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,.1);
-    animation: slidedown 1s forwards;    
+    animation: slidedown 2s forwards;    
 }
 
 @keyframes slidedown {
-0% {
-    transform: translatey(-20px);
+0% {transform: translatey(-20px);
     opacity: 0%;}
 
 100% {
