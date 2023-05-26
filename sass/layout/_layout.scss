@@ -6,17 +6,23 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    animation: spin 1.5s linear infinite;
+    animation: spin 3s ;
+    transition: opacity 0.3s linear;
     margin: auto;
     position: absolute;
-    top: 0; left: 0;right: 0;bottom: 0;     
+    z-index:9999;
+    top: 0; left: 0;right: 0;bottom: 0; 
+    opacity: 0;   
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg);}        
-    100% { transform: rotate(360deg);}
+    0% { transform: rotate(0deg);
+        opacity: 1;
+        }           
+    100% { transform: rotate(360deg);
+            opacity: 0;
+        }       
 }
-
 
 
 // partie Header
