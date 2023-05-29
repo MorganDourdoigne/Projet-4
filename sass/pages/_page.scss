@@ -205,19 +205,20 @@ border-bottom-right-radius: 15px;
 border-top-right-radius: 15px;
 height: 70px;
 position: absolute;
-right: -68px;
+right: -41px;
 opacity: 0;
+
 }
 
 .sentence:hover .valid {
     opacity: 1;
     transform: translateX(-40px) ;
     transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
-    
-  }
+}
 
 
 
+  
 .deployicon{  
     height: 25px;
     width: 25px;
@@ -233,9 +234,6 @@ opacity: 0;
     margin-right: 0;
 }
 
-.valid:hover {
-    margin-right: 0rem;
-     }
 
 // Button "commander"
 #commander_button{

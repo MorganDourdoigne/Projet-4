@@ -481,7 +481,7 @@ footer a {
   border-top-right-radius: 15px;
   height: 70px;
   position: absolute;
-  right: -68px;
+  right: -41px;
   opacity: 0;
 }
 
@@ -504,10 +504,6 @@ footer a {
 .fa-check {
   color: #99e2d0;
   margin-right: 0;
-}
-
-.valid:hover {
-  margin-right: 0rem;
 }
 
 #commander_button {
