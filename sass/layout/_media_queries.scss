@@ -29,6 +29,11 @@
     gap: 3%;
 }
 
+.margin_cards{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 
 // footer media
 .footer_display{
@@ -52,6 +57,26 @@
     margin-left: 50px;
 }
 
+
+
+// pages restaurants
+
+.container_menu{
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
+.title_restaurant{
+    text-align: center;
+    padding-left: 0
+}
 
+.hoverheart__blackheartmenu {
+    left: 67%;
+}
+
+.hoverheart__pinkheart_menu {
+    left: 67%;
+}
+
+}
