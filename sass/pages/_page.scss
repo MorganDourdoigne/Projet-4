@@ -117,7 +117,6 @@
     cursor: pointer;
     box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,.1);
     animation: slidedown 2.5s forwards;  
-    white-space: nowrap;
 }
 
 
@@ -132,9 +131,9 @@
 
 .all_menu{
     overflow: hidden;
-    white-space: nowrap;
-    flex: 1;
-    text-overflow: ellipsis;      
+    white-space: nowrap;    
+    text-overflow: ellipsis;    
+    flex: 1;  
 }  
 
 
@@ -149,9 +148,7 @@
 
 .manger{
     display: flex;
-    flex-direction: column;    
-    text-overflow: ellipsis;
-    overflow: hidden;
+    flex-direction: column;         
 }
 
 .title_menu{
@@ -160,9 +157,7 @@
     font-weight: 500;
     font-size: 18px;
     padding: 10px 0 0 10px;
-    margin: 0;    
-    text-overflow: ellipsis;
-    overflow: hidden;
+    margin: 0;       
 }
 
 .sub_menu{
@@ -172,10 +167,13 @@
     font-size: 15.0431px;
     line-height: 18px; 
     padding: 6px 0 13px 10px;
-    margin: 0;  
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;          
+    margin: 0;             
+}
+
+.manger, .title_menu, .sub_menu{
+    text-overflow: ellipsis;   
+    overflow: hidden;
+    white-space: nowrap;  
 }
 
 .price_menu{
@@ -185,7 +183,9 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin-right: 9px;
+    padding-left: 0.5rem;
 }
+
 
 .container_plat{
     display: flex;
@@ -210,12 +210,17 @@ opacity: 0;
 
 }
 
+.sentence:hover .price_menu {
+    opacity: 1;
+    transform: translateX(-80px) ;
+    transition: transform 0.4s ease-in-out, width 0.4s ease-in-out;}
+
+
 .sentence:hover .valid {
     opacity: 1;
     transform: translateX(-40px) ;
     transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
-
 
 
   
