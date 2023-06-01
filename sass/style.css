@@ -450,6 +450,10 @@ footer a {
   white-space: nowrap;
 }
 
+.sentence:hover .manger {
+  width: 60%;
+}
+
 .price_menu {
   display: flex;
   justify-content: flex-end;
