@@ -418,6 +418,7 @@ footer a {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  overflow: hidden;
 }
 
 .manger {
