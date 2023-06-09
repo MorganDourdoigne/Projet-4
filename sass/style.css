@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: auto;
   max-width: 1440px;
-  margin: 0 auto;  
 }
 
 h1 {
@@ -48,7 +48,7 @@ footer, .button_fonction, #ville, .button_explorer, .title_menu {
   animation: spin 3s;
   transition: opacity 0.3s linear;
   margin: auto;
-  position: absolute;
+  position: fixed;
   z-index: 9999;
   top: 0;
   left: 0;
@@ -561,6 +561,9 @@ footer a {
   }
   .logo_number {
     top: 22px;
+  }
+  .header_menu {
+    margin: 0 150px 0 150px;
   }
   .display_grid {
     display: grid;

@@ -9,7 +9,7 @@
     animation: spin 3s ;
     transition: opacity 0.3s linear;
     margin: auto;
-    position: absolute;
+    position: fixed;
     z-index:9999;
     top: 0; left: 0;right: 0;bottom: 0; 
     opacity: 0;   
@@ -58,7 +58,8 @@ header{
     font-weight: 700;
     font-size: 24px;
     font-family: "Roboto", sans-serif;
-    margin-left: 20px  
+    margin-left: 20px
+  
 }
 
 // section réservation
