@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0;
+  max-width: 1440px;
+  margin: 0 auto;  
 }
 
 h1 {
@@ -90,6 +91,13 @@ header {
   color: black;
   border: none;
   background-color: #EAEAEA;
+}
+
+.marg {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  margin-left: 20px;
 }
 
 .button_explorer {
@@ -361,12 +369,12 @@ footer a {
 
 .hover_menu_heart:hover .hoverheart__blackheartmenu {
   opacity: 0;
-  transition: 0.3s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .hover_menu_heart:hover .hoverheart__pinkheart_menu {
   opacity: 1;
-  transition: 0.3s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .h2_menu {

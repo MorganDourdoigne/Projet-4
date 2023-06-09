@@ -84,12 +84,12 @@
 
 .hover_menu_heart:hover .hoverheart__blackheartmenu {
     opacity: 0;
-    transition: 0.3s ease-in-out;
+    transition: 1s ease-in-out;
   }
   
   .hover_menu_heart:hover .hoverheart__pinkheart_menu {
     opacity: 1;
-    transition: 0.3s ease-in-out;
+    transition: 1s ease-in-out;
   }
 // 
 
@@ -280,6 +280,5 @@ opacity: 0;
     }
     
     }
-
 
 
