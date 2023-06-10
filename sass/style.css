@@ -400,17 +400,21 @@ footer a {
   margin-bottom: 12px;
   cursor: pointer;
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
-  animation: slidedown 2.5s forwards;
 }
 
-@keyframes slidedown {
+.entrees_menu {
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+@keyframes fadeIn {
   0% {
-    transform: translatey(-20px);
-    opacity: 0%;
+    opacity: 0;
   }
   100% {
-    transform: translatey(0px);
-    opacity: 100%;
+    opacity: 1;
   }
 }
 .all_menu {
@@ -573,6 +577,9 @@ footer a {
   .margin_cards {
     margin-left: 50px;
     margin-right: 50px;
+  }
+  #marg_media {
+    margin-left: 41px;
   }
   .footer_display {
     display: flex;

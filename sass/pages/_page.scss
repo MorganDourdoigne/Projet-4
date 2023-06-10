@@ -115,19 +115,25 @@
     max-width: 100%;   
     margin-bottom: 12px;
     cursor: pointer;
-    box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,.1);
-    animation: slidedown 2.5s forwards;  
+    box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,.1);   
 }
 
-
-@keyframes slidedown {
-0% {transform: translatey(-20px);
-    opacity: 0%;}
-
-100% {
-    transform: translatey(0px);
-    opacity: 100%;}
-}
+.entrees_menu {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
 
 .all_menu{
     overflow: hidden;
