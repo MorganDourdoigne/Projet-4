@@ -64,6 +64,7 @@
   font-size: 1.5em;
   opacity: 1;
   top: 38px;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .hoverheart__pinkheart_menu{
@@ -80,6 +81,7 @@
     opacity: 0;
     cursor: pointer;
     top: 38px;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .hover_menu_heart:hover .hoverheart__blackheartmenu {
@@ -116,6 +118,7 @@
     margin-bottom: 12px;
     cursor: pointer;
     box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,.1); 
+    
       
 }
 

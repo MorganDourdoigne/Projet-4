@@ -156,6 +156,7 @@ header{
     left: 82%;
     font-size: 2em;   
     opacity: 1; 
+    transition: opacity 0.3s ease-in-out;
 }
 
 .hoverheart__pinkheart{
@@ -170,6 +171,7 @@ header{
     -webkit-text-fill-color: transparent;
     opacity: 0;
     cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .hoverheart:hover .hoverheart__blackheart {
