@@ -67,6 +67,20 @@ footer, .button_fonction, #ville, .button_explorer, .title_menu {
     opacity: 0;
   }
 }
+html {
+  animation: blur 3s;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+  100% {
+    filter: blur(0);
+    -webkit-filter: blur(0);
+  }
+}
 header {
   text-align: center;
 }
